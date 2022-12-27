@@ -1,0 +1,53 @@
+
+@media (max-width:1024px) {
+  .section_2 .skills ul{
+    font-size: 2rem;
+  }
+  .scaler{height: auto;}
+  .section_4{
+    grid-template-columns: none;
+    padding-inline: 0;
+    padding-block: 8vh;
+    
+}
+.section_4 .about-me h1{
+    padding-left: 0;
+    text-align: center;
+}
+
+.section_4 .about-me{
+    padding-top: 2vh;
+}
+}
+
+
+@media (max-width:768px) {
+  
+    .section_2 .skills ul{
+        font-size: 1.5rem;
+      }
+   
+}
+
+@media (max-width:570px) {
+
+
+
+
+    /* .section_4 .about-me h1{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .section_4 .about-me{
+        padding-top: 2vh;
+    } */
+
+    .section_2 .skills ul{
+        font-size: .9rem;
+        padding: 0;
+      }
+  
+  
+}
+
