@@ -33,11 +33,16 @@ nav {
   height: 10%;
   transition: .5s all;
   background-color: rgb(0 0 0 / 84%);
+ 
 }
-
+/*
+ .collapsing , .show{
+  background-color: rgb(0 0 0 / 84%);
+} */
 .scaler{
   height: 8vh;
 }
+
 /* nav ul {
   display: flex;
   justify-content: flex-end;
@@ -145,7 +150,7 @@ position: relative;
 }
 .section_2 .skills ul {
   list-style: inside;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .section_3 {
@@ -288,7 +293,7 @@ position: relative;
   border-radius: 50%;
   border: 10px solid crimson;
   height: 37vh;
-  position: absolute;
+  position: relative;
   overflow: hidden;
   background-color: red;
 }
@@ -300,9 +305,13 @@ position: relative;
   position: relative;
   inset: 0;
 }
+
+.section-info a{
+  margin-top: 2vh;
+}
 .section-info{
   height: 50%;
-  width: 100%;
+
   display: flex;
   position: relative;
   justify-content: center;
@@ -310,14 +319,15 @@ position: relative;
   align-items: center;
 }
 .section-info h1{
-  position: absolute;
+  position: relative;
   text-align: center;
   color: white;
   font-weight: bolder;
   font-size: 2rem;
-  
-  top: 100%;
+  padding-top: 3vh;
 }
+
+
 
 /* ---- stats.js ---- */
 
